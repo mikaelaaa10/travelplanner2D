@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <header>
+        <nav class="navbar">  
+            <div class="nav-left">
+                <a href="#" class="logo"><img src="resources/logo.png" alt="Logo"></a>
+            </div>
+            <input type="checkbox" id="check">
+            <span class="menu" id="nav-links">
+                <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#" id="search-link">Browse</a></li>
+                <li><a href="#" id="plan-trip-link">Plan Trip</a></li>
+                <li><a href="#" id="help-desk-link">Help Desk</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </nav>
+    </header>
+    <main> 
+        <section id="home-section" class="section active">
+            <div class="video-container">
+                <video autoplay loop muted>
+                    <source src="resources/home_vid.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="welcome_traveler">
+                <p>WELCOME, TRAVELER!</p>
+            </div>
+            <div class="slogan">
+                <p>"Uncover your next dream getaway with our professional travel</p>
+                <p>planning expertise. The adventure of a lifetime begins now."</p>
+            </div>
+            <div class="scrollable-content">
+                <div class="container_1">
+                    <div class="slides_1">
+                        <img src="resources/1.jpg" alt="1">
+                        <img src="resources/2.jpg" alt="2">
+                        <img src="resources/3.jpg" alt="3">
+                        <img src="resources/4.jpg" alt="4">
+                        <img src="resources/5.jpg" alt="5">
+                    </div>
+                </div>
+                <div class="container_2">
+                    <div class="slides_2">
+                        <img src="resources/6.jpg" alt="6">
+                        <img src="resources/7.jpg" alt="7">
+                        <img src="resources/8.jpg" alt="8">
+                        <img src="resources/9.jpg" alt="9">
+                        <img src="resources/10.jpg" alt="10">
+                    </div>
+                </div>
+                <div class="container_3">
+                    <div class="slides_3">
+                        <img src="resources/11.jpg" alt="11">
+                        <img src="resources/12.jpg" alt="12">
+                        <img src="resources/13.jpg" alt="13">
+                        <img src="resources/14.jpg" alt="14">
+                        <img src="resources/15.jpg" alt="15">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="wrapper">
+                <h1 class="heading">Top Tourist Spot</h1> 
+                <div class="row">
+                    <i id="left-1" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel">
+                        <div class="image-container">
+                            <img src="resources/tourist 1.jpg" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/tourist 2.jpg" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/tourist 3.webp" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/tourist 4.webp" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/tourist 5.jpg" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/tourist 6.jpg" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/tourist 7.jpg" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/tourist 8.jpg" alt="img" draggable="false">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                    </div>
+                    <i id="right-0" class="fa-solid fa-angle-right"></i>
+                </div>
+                <h1 class="heading">Top Hotels</h1>
+                <div class="row">
+                    <i id="left-1" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel">
+                        <div class="image-container">
+                            <img src="resources/hotel 1.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/hotel 2.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/hotel 3.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/hotel 4.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/hotel 5.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/hotel 6.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/hotel 7.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="image-container">
+                            <img src="resources/hotel 8.jpg" alt="img" draggable="false">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <i id="right-1" class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+        
+        <section id="search-section" class="section">
+           <h3>Browse Photos</h3>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Enter">
+                <button type="submit">Search</button>
+            </form>
+            <div class="card_place"></div>
+        </section>
+
+        <section id="plan-trip-section" class="section">
+            <h2>Plan Your Trip</h2>
+            <form id="trip-form">
+                <div>
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+                </div>
+                <div>
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date" required>
+                </div>
+                <div>
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date" required>
+                </div>
+                <div>
+                    <label for="budget">Budget:</label>
+                    <input type="range" id="budget" name="budget" min="0" max="100000" step="100" value="0">
+                    <span id="budget-value">₱0</span>
+                </div>
+                <div class="form-group">
+                    <label for="num-travelers">Number of Travelers:</label>
+                    <input type="number" id="num-travelers" name="num-travelers" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="accommodation">Accommodation Preference:</label>
+                    <select id="accommodation" name="accommodation">
+                        <option value="hotel">Hotel</option>
+                        <option value="hostel">Hostel</option>
+                        <option value="apartment">Apartment</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="departure-time">Preferred Departure Time:</label>
+                    <input type="time" id="departure-time" name="departure-time" required>
+                </div>
+                <button type="submit">Plan Trip</button>
+            </form>
+        </section>
+
+        <section id="receipt-section" class="section">
+            <div id="receipt"></div>
+        </section>
+
+        <section id="check-weather-section" class="section">
+            <form class="weatherForm">
+                <input type="text" class="cityInput" placeholder="Enter specific location">
+                <button type="submit">Check Weather</button>
+            </form>
+            <div class="card" style="display: none"></div>
+            <div id="check-weather-section"></div>
+        </section>        
+    </main>
+        
+    <section id="help-desk-section" class="section">
+        <div class="patterns">
+            <svg viewBox="0 0 500 150">
+                <text x="50%" y="50%" text-anchor="middle">
+                    FAQ's
+                </text>
+            </svg>
+        </div>
+        <div class="content">
+            <details>
+                <summary>1. What is a travel planner website?</summary>
+                <p>The Travel Planner application is designed to help users organize and plan their trips effectively. It provides a platform where users can search for destinations, book flights, accommodations, and explore various travel options to make their trip planning process seamless and enjoyable.</p>
+            </details>
+            <details>
+                <summary>2. Can I book trips for groups?</summary>
+                <p>Yes, our platform supports group plannings for flight schedule time, accommodation, number of travelers, budget, and more.</p>
+            </details>
+            <details>
+                <summary>3. How can I find information about my destination?</summary>
+                <p>Our website provides comprehensive destination guide weather. Visit the "Destination Weather" section for more details.</p>
+            </details>
+            <details>
+                <summary>4. What happens if my flight gets delayed or canceled?</summary>
+                <p>If your flight gets delayed or canceled, follow the airline's instructions and contact customer support for assistance with rebooking or arranging alternative travel plans.</p>
+            </details>
+            <details>
+            <summary>5.How secure is my personal information on the Travel Planner application?</summary>
+            <p>We take the security and privacy of our users very seriously. The Travel Planner application employs industry-standard encryption protocols to safeguard your personal information and ensure that your data remains secure at all times.</p>
+            </details>
+            <details>
+                <summary>6.What should I do if I encounter any issues or need assistance while using the Travel Planner application?</summary>
+                <p>If you have any questions, concerns, or encounter any issues while using the Travel Planner application, our dedicated customer support team is here to help. You can reach out to us via email or through the in-app support chat feature, and we'll do our best to assist you promptly.</p>
+            </details>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Planner. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
